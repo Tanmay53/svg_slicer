@@ -4350,17 +4350,6 @@ module.exports = intersect;
 
 },{"./Intersection":9,"./IntersectionParams":10,"./functions/bezier":11,"kld-affine":1,"kld-polynomial":5}],13:[function(require,module,exports){
 
-/*
-    The goal of this exercise is to take a polygon defined by the points 'points', use the mouse
-    events to draw a line that will split the polygon and then draw the two split polygons.
-    In the start, you'll have the initial polygon (start.png)
-    While dragging the mouse, the polygon should be shown along with the line you're drawing (mouseMove.png)
-    After letting go of the mouse, the polygon will be split into two along that line (mouseUp.png)
-
-    The code provided here can be used as a starting point using plain-old-Javascript, but it's fine
-    to provide a solution using react/angular/vue/etc if you prefer.
-*/
-
 // Using and SVG API for getting Intersections between the polygon and the line.
 // Added with : npm install svg-intersections.
 
